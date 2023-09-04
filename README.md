@@ -9,15 +9,15 @@ We learned 7 chapters during the 2-month intensive program. These are the projec
   พื้นฐานการเขียน SQL และ Python
   
 ## CH 1 Data Collection & Workshop 1
-  เรียนรู้การสร้าง database ที่ sqlfiddle.com
-  การดึงข้อมูลจากแหล่งข้อมูลต่าง ๆ เช่น REST API ด้วย Pandas
-  Workshop 1: Data Collection with Python 
-    1. Import data from the database (MYSQL_HOST = x.x.x.x)
-    2. Convert to pandas
-    3. get data from 'REST API' by package 'requests'
-    4. input URL 
-    5. Convert to pandas
-    6. Join the data
+  เรียนรู้การสร้าง database ที่ sqlfiddle.com\
+  การดึงข้อมูลจากแหล่งข้อมูลต่าง ๆ เช่น REST API ด้วย Pandas\
+  Workshop 1: Data Collection with Python\
+    1. Import data from the database (MYSQL_HOST = x.x.x.x)\
+    2. Convert to pandas\
+    3. get data from 'REST API' by package 'requests'\
+    4. input URL\
+    5. Convert to pandas\
+    6. Join the data\
     7. Export to CSV file
     
 ## CH 2 Data Cleansing & Workshop 2
