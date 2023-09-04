@@ -7,17 +7,33 @@ We learned 7 chapters during the 2-month intensive program. These are the projec
 ## CH 0 Intro to Data Engineering
   พื้นฐานเกี่ยวกับงานของ Data Engineer
   พื้นฐานการเขียน SQL และ Python
+  
 ## CH 1 Data Collection & Workshop 1
+  เรียนรู้การสร้าง database ที่ sqlfiddle.com
   การดึงข้อมูลจากแหล่งข้อมูลต่าง ๆ เช่น REST API ด้วย Pandas
+  Workshop 1: Data Collection with Python 
+    1. Import data from the database (MYSQL_HOST = x.x.x.x)
+    2. Convert to pandas
+    3. get data from 'REST API' by package 'requests'
+    4. input URL 
+    5. Convert to pandas
+    6. Join the data
+    7. Export to CSV file
+    
 ## CH 2 Data Cleansing & Workshop 2
   การทำความสะอาดข้อมูล ด้วย Apache Spark
+  
 ## CH 3 Basic Cloud & Workshop 3
   การใช้ Google Cloud สร้าง Data Lake แบบเบื้องต้น
+  
 ## CH 4 Data Pipeline Orchestration & Workshop 4
   การสร้าง Data Pipeline ที่ทำงานอัตโนมัติ ด้วย Apache Airflow
+  
 ## CH 5 Data Warehouse & Workshop 5
   การใช้ Google BigQuery สร้าง Data Warehouse
+  
 ## CH 6 Data Visualization & Workshop 6
   การใช้ Google Data Studio (Looker Studio) สร้าง Dashboard
+  
 ## CH 7 Advanced Data Engineering
   ความรู้เพิ่มเติมที่ Data Engineer สมัยใหม่ต้องรู้ เช่น Databricks, Delta Lake
