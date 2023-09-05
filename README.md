@@ -22,7 +22,25 @@ We learned 7 chapters during the 2-month intensive program. These are the projec
     
 ## CH 2 Data Cleansing & Workshop 2
   การทำความสะอาดข้อมูล ด้วย Apache Spark
-  
+  Workshop 2: Data Cleansing with Spark
+    1. Load data (CSV file) from the URL
+    2. Data Profiling
+        1) Check missing value
+    3. EDA - Exploratory Data Analysis
+        1) Non-Graphical EDA
+        2) Graphical EDA
+    4. Data Cleansing with Spark
+        1) Transform Data Type
+        2) Anomalies Check
+             2.1) Syntactical Anomalies
+             2.2) Semantic Anomalies
+             2.3) Missing values
+             2.4) Outliers
+    Clean ข้อมูลด้วย Spark SQL
+        1) Transform Spark DataFrame to TempView or GlobalTempView
+        2) Use SQL query or transform on TempView
+    5. Save data to CSV
+           
 ## CH 3 Basic Cloud & Workshop 3
   การใช้ Google Cloud สร้าง Data Lake แบบเบื้องต้น
   
