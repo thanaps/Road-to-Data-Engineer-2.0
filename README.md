@@ -56,6 +56,18 @@ We learned 7 chapters during the 2-month intensive program. These are the projec
     + Python SDK library
 ## CH 4 Data Pipeline Orchestration & Workshop 4
 การสร้าง Data Pipeline ที่ทำงานอัตโนมัติ ด้วย Apache Airflow
+### Workshop 4: Automated Data Pipeline with Airflow
+1. Create a Cloud Composer cluster
+2. Install Python packages in Airflow
+3. Upload taskflow*.py to GCS in the dags folder
+#### Exercise 1: Simple Pipeline
+#### Exercise 2: Fan-out Pipeline
+#### Exercise 3: Fan-in Pipeline
+4. Create a MySQL connection on Airflow to Database
+#### Exercise 4: Final Pipeline]
+- Read data from the Database
+- Read API as CSV
+- Merge data
   
 ## CH 5 Data Warehouse & Workshop 5
 การใช้ Google BigQuery สร้าง Data Warehouse
