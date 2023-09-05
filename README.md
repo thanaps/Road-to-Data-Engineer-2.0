@@ -64,16 +64,36 @@ We learned 7 chapters during the 2-month intensive program. These are the projec
 #### Exercise 2: Fan-out Pipeline
 #### Exercise 3: Fan-in Pipeline
 4. Create a MySQL connection on Airflow to Database
-#### Exercise 4: Final Pipeline]
+#### Exercise 4: Final Pipeline
 - Read data from the Database
 - Read API as CSV
-- Merge data
+- Merge data and save to [Bucket]/data folder.
   
 ## CH 5 Data Warehouse & Workshop 5
 การใช้ Google BigQuery สร้าง Data Warehouse
-  
+### Workshop 5: Data Warehouse with BigQuery
+1. Create a Dataset and a table on BigQuery
+2. Import data to BigQuery methods
+    1. Cloud Console (Web UI)
+    2. bq command by BashOperator on Airflow
+    3. GCSToBigQueryOperator
+3. Explore data on BigQuery by SQL
+
 ## CH 6 Data Visualization & Workshop 6
 การใช้ Google Data Studio (Looker Studio) สร้าง Dashboard
-  
+### Workshop 6: Data Visualization with Google Data Studio
+1. Create a View from the table in BigQuery(Workshop 5)
+     + Selected columns to show
+3. Create Dashboard
+     1. Overview
+          + Revenue
+          + Number of Customers
+          + Number of sales
+          + Book best seller
+          + Catagories best seller
+     2. Search book by revenue
+          + Parameter
+          + Calculated field
+
 ## CH 7 Advanced Data Engineering
 ความรู้เพิ่มเติมที่ Data Engineer สมัยใหม่ต้องรู้ เช่น Databricks, Delta Lake
