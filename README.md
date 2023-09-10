@@ -60,10 +60,10 @@ We learned 7 chapters during the 2-month intensive program. These are the projec
 1. Create a Cloud Composer cluster
 2. Install Python packages in Airflow
 3. Upload taskflow*.py to GCS in the dags folder
+4. Create a MySQL connection on Airflow to Database
 #### Exercise 1: Simple Pipeline
 #### Exercise 2: Fan-out Pipeline
 #### Exercise 3: Fan-in Pipeline
-4. Create a MySQL connection on Airflow to Database
 #### Exercise 4: Final Pipeline
 - Read data from the Database
 - Read API as CSV
